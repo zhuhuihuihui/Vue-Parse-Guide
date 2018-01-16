@@ -19,4 +19,6 @@ Use Parse's standard user object to manage sign in/ sign up. You may want to sub
 - `email` **String**
 - `birthday` **Date**
 - `devices` **Object**
-	- this is a dictionary to save a list of devices that this user has connected to. The key&value of this dictonary is `{"Mac address of the device": "User's custom name for this device"}`
+	- this is a dictionary to save a list of devices taht this user has connected to. The key&value of this dictonary is `{"Mac address of the device": "User's custom name for this device"}`
+- `profileImageFile` **PFFile**
+	- use this to save user's profile image
