@@ -22,3 +22,7 @@ Use Parse's standard user object to manage sign in/ sign up. You may want to sub
 	- this is a dictionary to save a list of devices taht this user has connected to. The key&value of this dictonary is `{"Mac address of the device": "User's custom name for this device"}`
 - `profileImageFile` **PFFile**
 	- use this to save user's profile image
+- `distanceUnit` **String**
+	- "Meters, Kilometrs" or "Feet, Miles", use this to save user's distance unit
+- `weightUnit` **String**
+	- "Kilograms" or "Pounds", use this to save user's weight unit
