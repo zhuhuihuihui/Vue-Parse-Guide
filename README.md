@@ -24,3 +24,4 @@ Use Parse's standard user object to manage sign in/ sign up. You may want to sub
 	- use this to save user's profile image
 - `firstName` **String**
 - `lastName` **String**
+- `stepsGoal` **Number** - use this to save user's steps goal
