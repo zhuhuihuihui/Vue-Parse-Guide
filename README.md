@@ -25,3 +25,34 @@ Use Parse's standard user object to manage sign in/ sign up. You may want to sub
 - `firstName` **String**
 - `lastName` **String**
 - `stepsGoal` **Number** - use this to save user's steps goal
+
+
+## FifMinsData
+This is a table that stores every fifteen minutes data
+
+- `userId` **String**
+	- User who this piece of data belongs to, use `objectId` from `User` Object
+- `timestamp` **Number**
+	- UTC timestamp in seconds, from 00:00:00 UTC on 1 January 1970
+- `steps` **Number**
+	- Total steps of that 15 minutes. Client should be responsible for saving it.
+- `calories` **Number**
+	- Total calories of that 15 minutes. Client should be responsible for saving it
+- `distance` **Number**
+  - Total distance of that 15 minutes in meters. Backend will automatically generate this.
+
+## DailyData
+This is a table that stores user's daily data
+
+- `userId` **String**
+	- User who this piece of data belongs to, use `objectId` from `User` Object
+- `timestamp` **Number**
+	- UTC timestamp in seconds, from 00:00:00 UTC on 1 January 1970
+- `steps` **Number**
+	- Total steps of that day. Client should be responsible for saving it.
+- `calories` **Number**
+	- Total calories of that day. Client should be responsible for saving it
+- `distance` **Number**
+  - Total distance of that day in meters. Backend will automatically generate this.
+
+
